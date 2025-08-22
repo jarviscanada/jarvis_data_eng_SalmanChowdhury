@@ -1,0 +1,97 @@
+# Preferred name (Characters only)
+name: "Salman Chowdhury"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SalmanChowdhury/
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: I am a recent graduate in Computer Science from the University of Windsor, specializing in Software Engineering. I have hands-on experience in full-stack web development, system administration, and AI/ML development. My recent AI internship at Glendor involved developing ensemble face detection systems, achieving a 92% F1 score, and implementing advanced algorithms for medical video analysis. I'm passionate about leveraging data and technology to solve real-world problems, from building intelligent systems that enhance user experiences to creating scalable applications that drive business value. My diverse experience across web development, IT operations, and AI provides me with a unique perspective on how technology can transform industries and enhance people's lives.
+  
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - JavaScript
+    - Java
+    - SQL/PostgreSQL/MySQL
+    - Git/GitHub
+  # At least 5 skills
+  competent:
+    - React/Next.js
+    - Node.js
+    - Linux/Bash
+    - Docker
+    - Google Cloud Platform
+  # At least 5 skills
+  familiar:
+    - Flask
+    - TypeScript
+    - C/C++
+    - MongoDB
+    - PyTorch
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Developed a Linux cluster monitoring system using Bash scripts and PostgreSQL to automatically collect and store hardware specifications and resource usage data from multiple nodes in a cluster. Implemented automated data collection through cron jobs and created SQL queries for system performance analysis and monitoring.
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Student Performance Predictor"
+    #URL is optional
+    git_url: "https://github.com/Mitch-Buchanan/Predicting-Student-Performance-COMP-4990"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Collaborated in a team of 3 to develop a student performance prediction system using Linear Regression and Random Forest models, achieving 84.3% R² score and 92% F1-Score respectively. Built an ML pipeline implementing data encoding and normalization which improved model performance through systematic preprocessing optimization. Developed Flask backend API routes and crafted an interactive React visualization dashboard with 3 chart types displaying predicted scores and feature comparisons.
+  - name: "Nerdy Jobs - Full-Stack Job Portal"
+    git_url: "https://www.nerdy-jobs.schowdhury.online"
+    description: Built a full-stack job portal using Next.js, TypeScript, and PostgreSQL that allows users to browse, filter, and post job listings. Implemented RESTful API architecture with server-side route handlers, error handling, and Zod schema data validation. Designed a responsive UI with Tailwind CSS and Shadcn-UI, optimized database operations using Prisma ORM improving data retrieval speed by 20%, and developed an admin approval system with Clerk authentication.
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Engineer"
+    company: "Jarvis"
+    duration: "2025-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Develop data engineering solutions and applications using Java, Python, and various database technologies. Collaborate with team members on agile development projects including Linux system monitoring, core Java applications, and cloud-based data processing systems. Apply software development best practices including version control with Git, code review processes, and automated testing methodologies."
+  - title: "AI Intern"
+    company: "Glendor"
+    duration: "Jan 2025 – Apr 2025"
+    description: "Created standardized testing procedures in Python and Google Colab to evaluate and compare performance metrics across 10 open-source face detection models, focusing on occlusion handling in medical environments. Developed a comprehensive ensemble face detection system that achieved 92% F1 score, integrating the top 4 best performing models. Implemented bounding box fusion using an IoU-based algorithm and confidence-weighted averaging, achieving over 99.7% precision by significantly reducing false positives."
+  - title: "System Administrator Co-op"
+    company: "FGF Brands"
+    duration: "Jan 2023 – Aug 2023"
+    description: "Provided Level 1 and 2 helpdesk support to resolve IT issues for employees, achieving a 95% resolution rate within 24 hours. Managed time management systems and access control privileges for 3,000+ employees across 13 locations. Administered shift schedules and attendance records using Workforce Software and Active Directory, improving schedule accuracy by 15% and reducing absenteeism by 10%."
+
+#List of edcuation
+education: 
+  - school_name: "University of Windsor"
+    duration: "Sep 2020 – Apr 2025"
+    degree: "Bachelor of Science (Honours)"
+    department: "Computer Science, Software Engineering Specialization"
+    # optional
+    awards_achievements: 
+      - "Dean's Honour Roll (3-time recipient): 2021, 2022, 2024"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Supervised Machine Learning: Regression and Classification (Coursera 2024)"
+      - "Career Essentials in System Administration by Microsoft and LinkedIn (LinkedIn Learning 2022)"
+      - "DevOps Foundations (LinkedIn Learning 2016)"
+  - title: "Languages"
+    bullets:
+      - "English (Native)"
+      - "French (Native)"

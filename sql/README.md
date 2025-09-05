@@ -1,10 +1,16 @@
 # Introduction
 
+This project demonstrates foundational SQL skills through hands-on practice with a country club database system. The database contains three main entities: members, facilities, and bookings, designed to track facility usage and member activity at a fictional country club. Through a series of progressive SQL queries, this project explores essential database operations including data retrieval, joins, aggregations, and window functions.
+
+The primary users of this system would be club administrators and managers who need to analyze membership data, facility utilization, and booking patterns to make informed business decisions. The project utilizes PostgreSQL as the database engine, running in a Docker container for consistent development environment management. Additional technologies include pgAdmin for database administration, Git for version control, and Linux command-line tools for system management.
+
+This exercise serves as practical preparation for real-world data engineering scenarios, particularly relevant for working with financial institutions where complex data relationships and analytical queries are essential for business intelligence and reporting systems.
+
 # SQL Queries
 
 ###### Table Setup (DDL)
 
-#### Overview
+### Overview
 Created a PostgreSQL database schema for a country club management system with members, facilities, and booking functionality.
 
 #### Schema Setup
